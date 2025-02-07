@@ -33,8 +33,12 @@ button {
     margin: 0 10px; /* Set margin around buttons */
     font-size: 26px; /* Set font size for buttons */
     font-family: 'Sacramento', cursive; /* Apply Sacramento font to the options */
-    background-color: #FB607F; /* Set button background color */
-    color: white; /* Set text color to white */
+    src: url();
+    background-color: #fffdd6;  /* Set button background color */
+    color: black; /* Set text color to white */
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
 }
+
